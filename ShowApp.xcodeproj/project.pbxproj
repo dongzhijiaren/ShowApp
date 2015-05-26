@@ -15,6 +15,7 @@
 		5E218EFB1B142610004DB209 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E218EFA1B142610004DB209 /* Images.xcassets */; };
 		5E218EFE1B142610004DB209 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E218EFC1B142610004DB209 /* LaunchScreen.xib */; };
 		5E218F0A1B142610004DB209 /* ShowAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E218F091B142610004DB209 /* ShowAppTests.m */; };
+		5E218F151B142639004DB209 /* Myview.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E218F141B142639004DB209 /* Myview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		5E218F031B142610004DB209 /* ShowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E218F081B142610004DB209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E218F091B142610004DB209 /* ShowAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAppTests.m; sourceTree = "<group>"; };
+		5E218F131B142639004DB209 /* Myview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myview.h; sourceTree = "<group>"; };
+		5E218F141B142639004DB209 /* Myview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Myview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				5E218EF41B142610004DB209 /* ViewController.h */,
 				5E218EF51B142610004DB209 /* ViewController.m */,
 				5E218EF71B142610004DB209 /* Main.storyboard */,
+				5E218F131B142639004DB209 /* Myview.h */,
+				5E218F141B142639004DB209 /* Myview.m */,
 				5E218EFA1B142610004DB209 /* Images.xcassets */,
 				5E218EFC1B142610004DB209 /* LaunchScreen.xib */,
 				5E218EF11B142610004DB209 /* ShowApp.xcdatamodeld */,
@@ -226,6 +231,7 @@
 				5E218EF01B142610004DB209 /* AppDelegate.m in Sources */,
 				5E218EF61B142610004DB209 /* ViewController.m in Sources */,
 				5E218EED1B142610004DB209 /* main.m in Sources */,
+				5E218F151B142639004DB209 /* Myview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +426,7 @@
 				5E218F0F1B142610004DB209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E218F101B142610004DB209 /* Build configuration list for PBXNativeTarget "ShowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				5E218F121B142610004DB209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
